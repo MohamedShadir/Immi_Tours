@@ -68,7 +68,7 @@
       <section class="navi-bar">
   <div class="navi-container">
     <div class="brand">
-      <a href="https://fareforyou.co.uk/"><img src="assets/img/logo.png?new"></a>
+      <a href="https://fareforyou.co.uk/"><img src="assets/img/Immi_banner.png"></a>
     </div>
     <nav>
       <div class="navi-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
