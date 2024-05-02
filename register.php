@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>Login - Immitours </title>
+    <title>Register - Immitours </title>
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- animate css -->
@@ -59,8 +59,10 @@
     </div>
 
     <!-- Header Area -->
+
     <header class="main_header_arae">
         <!-- Top Bar -->
+        
         <!-- Navbar Bar -->
         <div class="navbar-area">
             <div class="main-responsive-nav">
@@ -81,13 +83,13 @@
                             <img src="assets/img/logo_immi.png" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-        
-                            <div class="others-options d-flex align-items-left">
-
+                            
+                            <div class="others-options d-flex align-items-center">
+                            
                                 <div class="option-item">
                                     <a href="become-vendor.html" class="btn  btn_navber">Become a partner</a>
                                 </div>
+
                             </div>
                         </div>
                     </nav>
@@ -146,10 +148,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="common_bannner_text">
-                        <h2>Login</h2>
+                        <h2>Register</h2>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><span><i class="fas fa-circle"></i></span> Login</li>
+                            <li><span><i class="fas fa-circle"></i></span> Register</li>
                         </ul>
                     </div>
                 </div>
@@ -164,23 +166,43 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="common_author_boxed">
                         <div class="common_author_heading">
-                            <h3>Login your account</h3>
-                            <h2>Logged in to stay in touch</h2>
+                            <h3>Register account</h3>
+                            <h2>Register your account</h2>
                         </div>
                         <div class="common_author_form">
                             <form action="#" id="main_author_form">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter user name" />
+                                    <input type="text" class="form-control" placeholder="Enter first name*" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Enter password" />
-                                    <a href="forgot-password.html">Forgot password?</a>
+                                    <input type="text" class="form-control" placeholder="Enter last name*" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control"
+                                        placeholder="your email address (Optional)" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Mobile number*" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="User name*" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Password" />
                                 </div>
                                 <div class="common_form_submit">
-                                    <button class="btn btn_theme btn_md">Log in</button>
+                                    <button class="btn btn_theme btn_md">Register</button>
                                 </div>
-                                <div class="have_acount_area">
-                                    <p>Dont have an account? <a href="register.html">Register now</a></p>
+                                <div class="have_acount_area other_author_option">
+                                    <div class="line_or">
+                                        <span>or</span>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#!"><img src="assets/img/icon/google.png" alt="icon"></a></li>
+                                        <li><a href="#!"><img src="assets/img/icon/facebook.png" alt="icon"></a></li>
+                                        <li><a href="#!"><img src="assets/img/icon/twitter.png" alt="icon"></a></li>
+                                    </ul>
+                                    <p>Already have an account? <a href="login.php">Log in now</a></p>
                                 </div>
                             </form>
                         </div>
@@ -191,6 +213,7 @@
     </section>
 
     <!-- Cta Area -->
+
 
     <!-- Footer -->
     
@@ -214,6 +237,7 @@
         <i class="fas fa-chevron-up"></i>
         <i class="fas fa-chevron-up"></i>
     </div>
+
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap js -->
