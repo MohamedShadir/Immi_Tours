@@ -89,7 +89,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
-                        <!-- <ul class="topbar-list">
+                        <ul class="topbar-list">
                             <li>
                                 <a href="#!"><i class="fab fa-facebook"></i></a>
                                 <a href="#!"><i class="fab fa-twitter-square"></i></a>
@@ -99,13 +99,13 @@
                             <li><a href="my-profile.php"><span>My Profile</span></a></li>
                             <li><a href="admin/index.php"><span>Admin Login</span></a></li>
                             <li><a href="#!"><span>info@immitours.com</span></a></li>
-                        </ul> -->
+                        </ul>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <ul class="topbar-others-options">
                             <div class="option-item">
-                                <a href="login.php" class="btn  btn_navber">Login</a>
-                                <a href="signup.php" class="btn  btn_navber">Signup</a>
+                                <a href="logout.php" class="btn  btn_navber">Logout</a>
+                                
                             </div>
                            
                         </ul>

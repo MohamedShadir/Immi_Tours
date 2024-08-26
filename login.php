@@ -1,8 +1,7 @@
 <?php
 session_start();
-include '../conf/config.php';
+include 'conf/config.php';
 
-header('Location: index.php');
 
 if (isAuthenticated()) {
     logout();
@@ -15,7 +14,7 @@ if (isAuthenticated()) {
 
     // Ensure the database connection is properly initialized
     //$conn = dbConnect(); // Ensure this function is correctly implemented
-
+    
     // Prepare the SQL statement
     $stmt = $conn->prepare("SELECT Password
                             FROM admin 
@@ -39,7 +38,7 @@ if (isAuthenticated()) {
     if ($password_hash !== null && password_verify($password, $password_hash)) {
         //session_start(); // Ensure the session is started
         $_SESSION['username'] = $username;
-        header('Location: index.php');
+        header('Location: home.php');
         exit();
     } else {
         $error = "Invalid username or password.";
@@ -234,16 +233,16 @@ function passwordhash($password){
                             <h2>Logged in to stay in touch</h2>
                         </div>
                         <div class="common_author_form">
-                            <form action="index.php" id="main_author_form" method="post">
+                            <form action="#" id="main_author_form" method="post">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter user name" name = "username"/>
+                                    <input type="text" class="form-control" placeholder="Enter user name" name = "username" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Enter password" name = "password"/>
+                                    <input type="password" class="form-control" placeholder="Enter password" name = "password" required/>
                                     <a href="forgot-password.php">Forgot password?</a>
                                 </div>
                                 <div class="common_form_submit">
-                                    <input type="submit" class="btn btn_theme btn_md">Log in</button>
+                                    <input type="submit" name="Login" class="btn btn_theme btn_md"></button>
                                 </div>
                                 <div class="have_acount_area">
                                     <p>Dont have an account? <a href="register.php">Register now</a></p>
@@ -265,12 +264,12 @@ function passwordhash($password){
             <div class="row align-items-center">
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_right">
-                        <img src="assets/img/common/cards.png" alt="img">
+                        
                     </div>
                 </div>
             </div>
@@ -281,18 +280,18 @@ function passwordhash($password){
         <i class="fas fa-chevron-up"></i>
     </div>
 
-    <!-- <script src="assets/js/jquery-3.6.0.min.js"></script> -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script> 
     <!-- Bootstrap js -->
-    <!-- <script src="assets/js/bootstrap.bundle.js"></script> -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
     <!-- Meanu js -->
-    <!-- <script src="assets/js/jquery.meanmenu.js"></script> -->
+    <script src="assets/js/jquery.meanmenu.js"></script>
     <!-- owl carousel js -->
-    <!-- <script src="assets/js/owl.carousel.min.js"></script> -->
+    <script src="assets/js/owl.carousel.min.js"></script>
     <!-- wow.js -->
-    <!-- <script src="assets/js/wow.min.js"></script> -->
+    <script src="assets/js/wow.min.js"></script>
     <!-- Custom js -->
-    <!-- <script src="assets/js/custom.js"></script> -->
-    <!-- <script src="assets/js/add-form.js"></script> -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/add-form.js"></script>
 
 </body>
 
