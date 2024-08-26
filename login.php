@@ -1,3 +1,69 @@
+<?php
+session_start();
+include '../conf/config.php';
+
+header('Location: index.php');
+
+if (isAuthenticated()) {
+    logout();
+    exit();
+  }
+
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    // Ensure the database connection is properly initialized
+    //$conn = dbConnect(); // Ensure this function is correctly implemented
+
+    // Prepare the SQL statement
+    $stmt = $conn->prepare("SELECT Password
+                            FROM admin 
+                            WHERE UserName = ?");
+    
+    // Bind both parameters
+    $stmt->bind_param("s", $username);
+
+    // Execute the statement
+    $stmt->execute();
+    
+    // Bind the results
+    $stmt->bind_result($password_hash);
+    $stmt->fetch();
+
+    // Close the statement and connection
+    $stmt->close();
+    $conn->close();
+
+    // Verify the password and handle the result
+    if ($password_hash !== null && password_verify($password, $password_hash)) {
+        //session_start(); // Ensure the session is started
+        $_SESSION['username'] = $username;
+        header('Location: index.php');
+        exit();
+    } else {
+        $error = "Invalid username or password.";
+    }
+}
+
+function isAuthenticated() {
+    return isset($_SESSION['username']);
+    
+}
+
+function logout(){
+    session_unset();
+    session_destroy();
+    header('Location: login.php');
+    exit();
+}
+function passwordhash($password){
+    $password_hash = password_hash($password, PASSWORD_BCRYPT);
+    return $password_hash;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -86,7 +152,7 @@
                             <div class="others-options d-flex align-items-left">
 
                                 <div class="option-item">
-                                    <a href="become-vendor.html" class="btn  btn_navber">Become a partner</a>
+                                    <a href="become-vendor.php" class="btn  btn_navber">Become a partner</a>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +175,7 @@
                                     <a href="#" class="search-box"><i class="fas fa-search"></i></a>
                                 </div>
                                 <div class="option-item">
-                                    <a href="contact.html" class="btn  btn_navber">Get free quote</a>
+                                    <a href="contact.php" class="btn  btn_navber">Get free quote</a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +214,7 @@
                     <div class="common_bannner_text">
                         <h2>Login</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><span><i class="fas fa-circle"></i></span> Login</li>
                         </ul>
                     </div>
@@ -168,19 +234,19 @@
                             <h2>Logged in to stay in touch</h2>
                         </div>
                         <div class="common_author_form">
-                            <form action="#" id="main_author_form">
+                            <form action="index.php" id="main_author_form" method="post">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter user name" />
+                                    <input type="text" class="form-control" placeholder="Enter user name" name = "username"/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Enter password" />
-                                    <a href="forgot-password.html">Forgot password?</a>
+                                    <input type="password" class="form-control" placeholder="Enter password" name = "password"/>
+                                    <a href="forgot-password.php">Forgot password?</a>
                                 </div>
                                 <div class="common_form_submit">
-                                    <button class="btn btn_theme btn_md">Log in</button>
+                                    <input type="submit" class="btn btn_theme btn_md">Log in</button>
                                 </div>
                                 <div class="have_acount_area">
-                                    <p>Dont have an account? <a href="register.html">Register now</a></p>
+                                    <p>Dont have an account? <a href="register.php">Register now</a></p>
                                 </div>
                             </form>
                         </div>
@@ -215,18 +281,18 @@
         <i class="fas fa-chevron-up"></i>
     </div>
 
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="assets/js/jquery-3.6.0.min.js"></script> -->
     <!-- Bootstrap js -->
-    <script src="assets/js/bootstrap.bundle.js"></script>
+    <!-- <script src="assets/js/bootstrap.bundle.js"></script> -->
     <!-- Meanu js -->
-    <script src="assets/js/jquery.meanmenu.js"></script>
+    <!-- <script src="assets/js/jquery.meanmenu.js"></script> -->
     <!-- owl carousel js -->
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- <script src="assets/js/owl.carousel.min.js"></script> -->
     <!-- wow.js -->
-    <script src="assets/js/wow.min.js"></script>
+    <!-- <script src="assets/js/wow.min.js"></script> -->
     <!-- Custom js -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/add-form.js"></script>
+    <!-- <script src="assets/js/custom.js"></script> -->
+    <!-- <script src="assets/js/add-form.js"></script> -->
 
 </body>
 
