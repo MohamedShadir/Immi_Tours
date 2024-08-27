@@ -127,13 +127,13 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.php">
+                        <a class="navbar-brand" href="home.php">
                             <img src="assets/img/logo_black.png" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="index.php" class="nav-link">
+                                    <a href="home.php" class="nav-link">
                                         Home
                                         <!-- <i class="fas fa-angle-down"></i> -->
                                     </a>
@@ -513,7 +513,7 @@
                     <div class="common_bannner_text">
                         <h2>Error</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="home.php">Home</a></li>
                             <li><span><i class="fas fa-circle"></i></span> Error</li>
                         </ul>
                     </div>
@@ -530,7 +530,7 @@
                     <div class="error_content text-center">
                         <img src="assets/img/common/error.png" alt="img">
                         <h2>Error 404 : page not found</h2>
-                        <a href="index.html" class="btn btn_theme btn_md">Back to home</a>
+                        <a href="home.php" class="btn btn_theme btn_md">Back to home</a>
                     </div>
                 </div>
             </div>
@@ -661,7 +661,7 @@
             <div class="row align-items-center">
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
