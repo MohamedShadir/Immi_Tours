@@ -47,8 +47,8 @@
                     <div class="common_bannner_text">
                         <h2>Explore the evergreen forest</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><span><i class="fas fa-circle"></i></span><a href="tour-search.html">Tours</a></li>
+                            <li><a href="home.php">Home</a></li>
+                            <li><span><i class="fas fa-circle"></i></span><a href="tour-search.php">Tours</a></li>
                             <li><span><i class="fas fa-circle"></i></span> Tours Details</li>
                         </ul>
                     </div>
@@ -303,7 +303,7 @@
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultf1">
                         <label class="form-check-label" for="flexCheckDefaultf1">
                             <span class="main_spical_check">
-                                <span>I read and accept all <a href="terms-service.html">Terms and conditios</a></span>
+                                <span>I read and accept all <a href="terms-service.php">Terms and conditios</a></span>
                             </span>
                         </label>
                     </div>
