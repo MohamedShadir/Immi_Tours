@@ -427,7 +427,7 @@
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <input type="text" class="form-control bg_input"
-                                                    placeholder="First name*">
+                                                    placeholder="First name*" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
