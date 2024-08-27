@@ -426,7 +426,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="vendor_form_heading">
-                        <h2>Become a vendor</h2>
+                        <h2>Become a Guide</h2>
                         <p>
                             <br />
                         </p>
@@ -456,7 +456,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <input type="text" class="form-control bg_input"
-                                                placeholder="Mobile number*">
+                                                placeholder="Mobile number*" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -515,7 +515,7 @@
                                         conditions</a> and <a href="privacy-policy.php">Privacy policy</a>
                                 </label>
                             </div>
-                            <a href="booking-confirmation.php" class="btn btn_theme btn_md">Sign up</a>
+                            <button  class="btn btn_theme btn_md">Sign up</button>
                         </div>
                     </div>
                 </div>
