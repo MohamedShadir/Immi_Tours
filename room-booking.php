@@ -76,7 +76,7 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="home.php">
                             <img src="assets/img/logo_immi.png" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -651,12 +651,12 @@
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultf1">
                                 <label class="form-check-label" for="flexCheckDefaultf1">
                                     <span class="main_spical_check">
-                                        <span>I read and accept all <a href="terms-service.html">Terms and
+                                        <span>I read and accept all <a href="terms-service.php">Terms and
                                                 conditios</a></span>
                                     </span>
                                 </label>
                             </div>
-                            <a href="booking-confirmation.html" class="btn btn_theme btn_md">Submit</a>
+                            <a href="booking-confirmation.php" class="btn btn_theme btn_md">Submit</a>
                         </div>
                     </div>
                 </div>
@@ -878,7 +878,7 @@
             <div class="row align-items-center">
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
