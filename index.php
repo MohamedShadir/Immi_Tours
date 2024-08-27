@@ -164,9 +164,9 @@
                                                 </li>
                                     
                                                  
-                                                <li class="nav-item">
+                                                <!-- <li class="nav-item">
                                                     <a href="tour-booking-submission.php" class="nav-link">Tour Booking</a>
-                                                </li>
+                                                </li> -->
                                                 <li class="nav-item">
                                                     <a href="top-destinations.php" class="nav-link">Top Destination</a>
                                                 </li>
@@ -189,13 +189,13 @@
                                                     <a href="hotel-search-list.php" class="nav-link">Hotel List</a>
                                                 </li>
                                                 
-                                                <li class="nav-item">
+                                                <!-- <li class="nav-item">
                                                     <a href="hotel-details.php" class="nav-link">Hotel Booking</a>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </li>
                                         
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Apartments
                                             </a>
@@ -212,7 +212,7 @@
                                                     <a href="apartment-booking.php" class="nav-link">Apartments Booking</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Bus
@@ -222,9 +222,9 @@
                                                     <a href="bus-search-list.php" class="nav-link">Bus</a>
                                                 </li>
                                                 
-                                                <li class="nav-item">
+                                                <!-- <li class="nav-item">
                                                     <a href="bus-booking.php" class="nav-link">Bus Booking</a>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -236,9 +236,9 @@
                                                     <a href="train-search-list.php" class="nav-link">Train</a>
                                                 </li>
                                                 
-                                                <li class="nav-item">
+                                                <!-- <li class="nav-item">
                                                     <a href="train-booking.php" class="nav-link">Train Booking</a>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </li>
                                     </ul>
@@ -256,9 +256,9 @@
                                             <a href="tour-guides.php" class="nav-link">Team</a>
                                         </li>
                                         
-                                        <li class="nav-item">
+                                      <!--  <li class="nav-item">
                                             <a href="booking-confirmation.php" class="nav-link">Booking Confirmation</a>
-                                        </li>
+                                        </li>-->
                                         <li class="nav-item">
                                             <a href="become-expert.php" class="nav-link">Become Expert </a>
                                         </li>
@@ -270,7 +270,7 @@
                                         
                                     </ul>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">Dashboard  <i class="fas fa-angle-down"></i></a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
@@ -292,7 +292,7 @@
                                             <a href="my-profile.php" class="nav-link">My profile</a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
                                     <a href="news.php" class="nav-link">News <!-- <i class="fas fa-angle-down"></i> --></a>
                                      

@@ -209,7 +209,7 @@
                                                 </li>
                                             </ul>
                                         </li> -->
-                                        <li class="nav-item">
+                                     <!--   <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Apartments
                                             </a>
@@ -220,9 +220,9 @@
                                                 <li class="nav-item">
                                                     <a href="apartment-search-list.php" class="nav-link">Apartments List</a>
                                                 </li>
-                                                <!-- <li class="nav-item">
+                                                <li class="nav-item">
                                                     <a href="apartment-search-map.php" class="nav-link">Apartments Map</a>
-                                                </li> -->
+                                                </li> 
                                                 <li class="nav-item">
                                                     <a href="apartment-details.php" class="nav-link">Apartments Details</a>
                                                 </li>
@@ -230,7 +230,7 @@
                                                     <a href="apartment-booking.php" class="nav-link">Apartments Booking</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Bus

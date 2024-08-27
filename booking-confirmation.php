@@ -153,7 +153,7 @@
                                             </ul>
                                         </li>
                                          
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Apartments
                                             </a>
@@ -171,7 +171,7 @@
                                                     <a href="apartment-booking.php" class="nav-link">Apartments Booking</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Bus
@@ -327,8 +327,8 @@
                                     <img src="assets/img/icon/right.png" alt="img">
                                 </div>
                                 <div class="booking_success_text">
-                                    <h3>John Doe, your order was submitted successfully!</h3>
-                                    <h6>Your booking details has been sent to: yourmail@domain.com</h6>
+                                    <h3>abcd efgh, your order was submitted successfully!</h3>
+                                    <h6>Your booking details has been sent to: abcd@gmail.com</h6>
                                 </div>
                             </div>
                         </div>
@@ -338,20 +338,20 @@
                                 <div class="your_info_arae">
                                     <ul>
                                         <li><span class="name_first">First name:</span> <span
-                                                class="last_name">John</span></li>
+                                                class="last_name">abcd</span></li>
                                         <li><span class="name_first">Last name:</span> <span
-                                                class="last_name">Doe</span></li>
+                                                class="last_name">efgh</span></li>
                                         <li><span class="name_first">Email address:</span> <span
-                                                class="last_name">yourmail@domain.com</span></li>
-                                        <li><span class="name_first">Address:</span> <span class="last_name">1901
-                                                Thornridge Cir. Shiloh, Hawaii 81063</span></li>
-                                        <li><span class="name_first">City:</span> <span
-                                                class="last_name">Thornridge</span></li>
-                                        <li><span class="name_first">State:</span> <span class="last_name">Hawaii</span>
+                                                class="last_name">abcd@gmail.com</span></li>
+                                        <li><span class="name_first">Address:</span> <span class="last_name">pampaimadu vavuniya
+                                             </span></li>
+                                        <li><span class="name_first">District:</span> <span
+                                                class="last_name">vavuniya</span></li>
+                                        <li><span class="name_first">Province:</span> <span class="last_name">northern</span>
                                         </li>
                                         <li><span class="name_first">Postal code:</span> <span
-                                                class="last_name">81063</span></li>
-                                        <li><span class="name_first">Country:</span> <span class="last_name">USA</span>
+                                                class="last_name">12345</span></li>
+                                        <li><span class="name_first">Country:</span> <span class="last_name">srilanka</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -369,9 +369,9 @@
                                 <div class="tour_booking_amount_area">
                                     <ul>
                                         <li>Booking ID: <span>#RB5783GH</span></li>
-                                        <li>Booking date: <span>10 February 2022</span></li>
-                                        <li>Payment method: <span>Bank transfer</span></li>
-                                        <li>Booking status: <span>Success</span></li>
+                                        <li>Booking date: <span>29 August 2024</span></li>
+                                        <li>Payment method: <span>panding </span></li>
+                                        <li>Booking status: <span>pending</span></li>
                                     </ul>
                                     <ul>
                                         <li>Adult Price x 1 <span>$40,000.00</span></li>

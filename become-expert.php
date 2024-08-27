@@ -157,7 +157,7 @@
                                             </ul>
                                         </li>
                                          
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a href="#" class="nav-link active">
                                                 Apartments
                                             </a>
@@ -175,7 +175,7 @@
                                                     <a href="apartment-booking.php" class="nav-link">Apartments Booking</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Bus

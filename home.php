@@ -104,7 +104,7 @@
                     <div class="col-lg-6 col-md-6">
                         <ul class="topbar-others-options">
                             <div class="option-item">
-                                <a href="logout.php" class="btn  btn_navber">Logout</a>
+                                <a href="index.php" class="btn  btn_navber">Logout</a>
                                 
                             </div>
                            
@@ -195,7 +195,7 @@
                                             </ul>
                                         </li>
                                         
-                                        <li class="nav-item">
+                                    <!--    <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Apartments
                                             </a>
@@ -212,7 +212,7 @@
                                                     <a href="apartment-booking.php" class="nav-link">Apartments Booking</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Bus
@@ -275,7 +275,7 @@
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="dashboard.php" class="nav-link">Dashboard</a>
-                                        </li>
+                                        </li><!--
                                         <li class="nav-item">
                                             <a href="hotel-booking.php" class="nav-link">Hotel booking</a>
                                         </li>
@@ -284,7 +284,7 @@
                                         </li>
                                         <li class="nav-item">
                                             <a href="tour-booking.php" class="nav-link">Tour booking</a>
-                                        </li>
+                                        </li>-->
                                         <li class="nav-item">
                                             <a href="booking-history.php" class="nav-link">Booking history</a>
                                         </li>
