@@ -70,7 +70,7 @@
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="home.php">
                                 <img src="assets/img/Immi_banner.png" alt="logo">
                             </a>
                         </div>
@@ -80,7 +80,7 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="home.php">
                             <img src="assets/img/logo_immi.png" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -874,7 +874,7 @@
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultf1">
                         <label class="form-check-label" for="flexCheckDefaultf1">
                             <span class="main_spical_check">
-                                <span>I read and accept all <a href="terms-service.html">Terms and conditios</a></span>
+                                <span>I read and accept all <a href="terms-service.php">Terms and conditios</a></span>
                             </span>
                         </label>
                     </div>
@@ -882,7 +882,7 @@
             </div>
         </div>
         <div class="proceed_booking_btn ">
-            <a href="room-booking.html" class="btn btn_theme btn_md w-100">Proceed to Booking</a>
+            <a href="room-booking.php" class="btn btn_theme btn_md w-100">Proceed to Booking</a>
         </div>
     </div>
 
