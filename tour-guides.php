@@ -69,7 +69,7 @@
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="home.php">
                                 <img src="assets/img/Immi_banner.png" alt="logo">
                             </a>
                         </div>
@@ -79,7 +79,7 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="home.php">
                             <img src="assets/img/logo_immi.png" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -292,10 +292,10 @@
                                             <a href="faqs.html" class="nav-link">FAQ</a>
                                         </li> -->
                                         <li class="nav-item">
-                                            <a href="booking-confirmation.html" class="nav-link">Booking Confirmation</a>
+                                            <a href="booking-confirmation.php" class="nav-link">Booking Confirmation</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="become-expert.html" class="nav-link">Become Expert </a>
+                                            <a href="become-expert.php" class="nav-link">Become Expert </a>
                                         </li>
                                         <!-- <li class="nav-item">
                                             <a href="#" class="nav-link">User Pages</a>
@@ -403,7 +403,7 @@
                                     </a>
                                 </div>
                                 <div class="option-item">
-                                    <a href="become-vendor.html" class="btn  btn_navber">Become a partner</a>
+                                    <a href="become-vendor.php" class="btn  btn_navber">Become a partner</a>
                                 </div>
                             </div>
                         </div>
@@ -426,7 +426,7 @@
                                     <a href="#" class="search-box"><i class="fas fa-search"></i></a>
                                 </div>
                                 <div class="option-item">
-                                    <a href="contact.html" class="btn  btn_navber">Get free quote</a>
+                                    <a href="contact.php" class="btn  btn_navber">Get free quote</a>
                                 </div>
                             </div>
                         </div>
@@ -465,7 +465,7 @@
                     <div class="common_bannner_text">
                         <h2>Tour guides</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="home.php">Home</a></li>
                             <li><span><i class="fas fa-circle"></i></span> Tour Guide</li>
                         </ul>
                     </div>
@@ -718,12 +718,12 @@
                     </div>
                     <div class="footer_link_area">
                         <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="faqs.html">Rewards</a></li>
-                            <li><a href="terms-service.html">Work with Us</a></li>
-                            <li><a href="tour-guides.html">Meet the Team </a></li>
-                            <li><a href="news.html">Blog</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="testimonials.php">Testimonials</a></li>
+                            <li><a href="faqs.php">Rewards</a></li>
+                            <li><a href="terms-service.php">Work with Us</a></li>
+                            <li><a href="tour-guides.php">Meet the Team </a></li>
+                            <li><a href="news.php">Blog</a></li>
                         </ul>
                     </div>
                 </div>
@@ -733,12 +733,12 @@
                     </div>
                     <div class="footer_link_area">
                         <ul>
-                            <li><a href="dashboard.html">Account</a></li>
-                            <li><a href="faq.html">Faq</a></li>
-                            <li><a href="testimonials.html">Legal</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="top-destinations.html"> Affiliate Program</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="dashboard.php">Account</a></li>
+                            <li><a href="faq.php">Faq</a></li>
+                            <li><a href="testimonials.php">Legal</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="top-destinations.php"> Affiliate Program</a></li>
+                            <li><a href="privacy-policy.php">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -748,12 +748,12 @@
                     </div>
                     <div class="footer_link_area">
                         <ul>
-                            <li><a href="top-destinations-details.html">Community program</a></li>
-                            <li><a href="top-destinations-details.html">Investor Relations</a></li>
-                            <li><a href="flight-search-result.html">Rewards Program</a></li>
-                            <li><a href="room-booking.html">PointsPLUS</a></li>
-                            <li><a href="testimonials.html">Partners</a></li>
-                            <li><a href="hotel-search.html">List My Hotel</a></li>
+                            <li><a href="top-destinations-details.php">Community program</a></li>
+                            <li><a href="top-destinations-details.php">Investor Relations</a></li>
+                            <li><a href="flight-search-result.php">Rewards Program</a></li>
+                            <li><a href="room-booking.php">PointsPLUS</a></li>
+                            <li><a href="testimonials.php">Partners</a></li>
+                            <li><a href="hotel-search.php">List My Hotel</a></li>
                         </ul>
                     </div>
                 </div>
@@ -763,12 +763,12 @@
                     </div>
                     <div class="footer_link_area">
                         <ul>
-                            <li><a href="room-details.html">Chicago</a></li>
-                            <li><a href="hotel-details.html">New York</a></li>
-                            <li><a href="hotel-booking.html">San Francisco</a></li>
-                            <li><a href="tour-search.html">California</a></li>
-                            <li><a href="tour-booking.html">Ohio </a></li>
-                            <li><a href="tour-guides.html">Alaska</a></li>
+                            <li><a href="room-details.php">Chicago</a></li>
+                            <li><a href="hotel-details.php">New York</a></li>
+                            <li><a href="hotel-booking.php">San Francisco</a></li>
+                            <li><a href="tour-search.php">California</a></li>
+                            <li><a href="tour-booking.php">Ohio </a></li>
+                            <li><a href="tour-guides.php">Alaska</a></li>
                         </ul>
                     </div>
                 </div>
@@ -781,7 +781,7 @@
             <div class="row align-items-center">
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
