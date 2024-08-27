@@ -66,11 +66,11 @@
                             <div class="contact_details_wrapper">
                                 <div class="contact_detais_item">
                                     <h4>Help line</h4>
-                                    <h3><a href="tel:+442039958555">+44 20 3995 8555</a></h3>
+                                    <h3><a href="tel:+94778118118">+94 77 811 811 8</a></h3>
                                 </div>
                                 <div class="contact_detais_item">
                                     <h4>Support mail</h4>
-                                    <h3><a href="mailto:info@fareforyou.co.uk">info@fareforyou.co.uk</a></h3>
+                                    <h3><a href="mailto:info@imitours.com">info@immitours.com</a></h3>
                                 </div>
                                 <div class="contact_detais_item">
                                     <h4>Contact hour</h4>
