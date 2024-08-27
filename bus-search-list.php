@@ -452,12 +452,12 @@ include('conf/config.php');
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="oneway_search_form">
-                                                            <form action="#!">
+                                                            <form action="#!" method="post">
                                                                 <div class="row">
                                                                     <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                         <div class="flight_Search_boxed">
                                                                             <p>From</p>
-                                                                            <input type="text" value="Gampola">
+                                                                            <input type="text" value="" name="search1">
                                                                             <span>Bus Trtminal</span>
                                                                             <div class="plan_icon_posation">
                                                                                 <i class="fas fa-plane-departure"></i>
@@ -467,7 +467,7 @@ include('conf/config.php');
                                                                     <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                         <div class="flight_Search_boxed">
                                                                             <p>To</p>
-                                                                            <input type="text" value="Kandy ">
+                                                                            <input type="text" value=" " name="search2">
                                                                             <span>Bus Trtminal</span>
                                                                             <div class="plan_icon_posation">
                                                                                 <i class="fas fa-plane-arrival"></i>
@@ -835,15 +835,55 @@ include('conf/config.php');
                 <div class="col-lg-9">
                     <div class="row">
                         <?php   
-                                        $sql = "SELECT * from tbl_bus";
-                                        $query = $dbh->prepare($sql);
-                                        $query->execute();
-                                        $results=$query->fetchAll(PDO::FETCH_OBJ);
-                                        $cnt=1;
-                                        if($query->rowCount() > 0)
-                                        {
-                                        foreach($results as $result)
-                                        {	?>
+                                       if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                        $search = isset($_POST['search1']) ? $_POST['search1'] : null;
+                                        $search2 = isset($_POST['search2']) ? $_POST['search2'] : null;
+                                        
+                                        if ($search) {
+                                            // List of columns you want to search in
+                                            $columns = ['BusFrom', 'BusTo']; // replace with your actual column names
+                                    
+                                            // Build the WHERE clause with LIKE for each column
+                                            $searchClauses = array_map(function($col) use ($search) {
+                                                return "$col LIKE '%$search%'";
+                                            }, $columns);
+                                    
+                                            // Join all search conditions with OR
+                                            $searchstring = implode(' OR ', $searchClauses);
+                                        } else {
+                                            $searchstring = "1"; // Default condition to select all rows if no search term is provided
+                                        }
+                                    } else {
+                                        $searchstring = "1";
+                                    }
+                                    
+                                    $sql = "SELECT * FROM tbl_bus WHERE $searchstring";
+                                    
+                                    // Execute the query
+                                    // $result = $conn->query($sql);
+                                    
+                                    // // Fetch and display the results
+                                    // while ($row = $result->fetch_assoc()) {
+                                    //     // Process each row
+                                    //     echo $row['HotelId']; // Example output
+                                    // }
+                                    
+                                //    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                //          $search = isset($_POST['search']) ? $_POST['search'] : null;
+                                //          $searchstring = $search ? "HotelLocation LIKE '%" . $search . "%'" : "1";
+                                //     } else {
+                                //          $searchstring = "1";
+                                //     }
+                                
+                                //     $sql = "SELECT * FROM tbl_hotel WHERE $searchstring";
+                                    $query = $dbh->prepare($sql);
+                                    $query->execute();
+                                    $results=$query->fetchAll(PDO::FETCH_OBJ);
+                                    $cnt=1;
+                                    if($query->rowCount() > 0)
+                                    {
+                                     foreach($results as $result)
+                                    {		?>
 
                         <div class="col-lg-12">
                             <div class="flight_search_result_wrapper">

@@ -416,12 +416,12 @@ include('conf/config.php');
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="tour_search_form">
-                                            <form action="#!">
+                                            <form action="" method="post">
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                                         <div class="flight_Search_boxed">
                                                             <p>Destination</p>
-                                                            <input type="text" placeholder="Where are you going?">
+                                                            <input type="text" placeholder="Where are you going?" name="search">
                                                             <span>Where are you going?</span>
                                                         </div>
                                                     </div>
@@ -552,7 +552,7 @@ include('conf/config.php');
                                                         </div>
                                                     </div>
                                                     <div class="top_form_search_button">
-                                                        <button class="btn btn_theme btn_md">Search</button>
+                                                        <button type="submit" class="btn btn_theme btn_md">Search</button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -836,8 +836,15 @@ include('conf/config.php');
 <!------------------------------------------------------------------------------------------------------------>
                 <div class="col-lg-9">
                     <div class="row">
-                    <?php   
-                    $sql = "SELECT * from tbl_tour";
+                    <?php  
+                   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                         $search = isset($_POST['search']) ? $_POST['search'] : null;
+                         $searchstring = $search ? "TourLocation LIKE '%" . $search . "%'" : "1";
+                    } else {
+                         $searchstring = "1";
+                    }
+                
+                    $sql = "SELECT * FROM tbl_tour WHERE $searchstring";
                     $query = $dbh->prepare($sql);
                     $query->execute();
                     $results=$query->fetchAll(PDO::FETCH_OBJ);

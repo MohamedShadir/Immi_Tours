@@ -397,12 +397,12 @@ include('conf/config.php');
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="tour_search_form">
-                                            <form action="#!">
+                                            <form action="#!" method="post">
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                                         <div class="flight_Search_boxed">
                                                             <p>Destination</p>
-                                                            <input type="text" placeholder="Where are you going?">
+                                                            <input type="text" placeholder="Where are you going?" name="search">
                                                             <span>Where are you going?</span>
                                                         </div>
                                                     </div>
@@ -819,15 +819,23 @@ include('conf/config.php');
                 <div class="col-lg-9">
                     <div class="row">
 
-                    <?php $sql = "SELECT * from tbl_tour";
-                        $query = $dbh->prepare($sql);
-                        $query->execute();
-                        $results=$query->fetchAll(PDO::FETCH_OBJ);
-                        $cnt=1;
-                        if($query->rowCount() > 0)
-                        {
-                        foreach($results as $result)
-                        {	?> 
+                    <?php  
+                   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                         $search = isset($_POST['search']) ? $_POST['search'] : null;
+                         $searchstring = $search ? "TourLocation LIKE '%" . $search . "%'" : "1";
+                    } else {
+                         $searchstring = "1";
+                    }
+                
+                    $sql = "SELECT * FROM tbl_tour WHERE $searchstring";
+                    $query = $dbh->prepare($sql);
+                    $query->execute();
+                    $results=$query->fetchAll(PDO::FETCH_OBJ);
+                    $cnt=1;
+                    if($query->rowCount() > 0)
+                    {
+                     foreach($results as $result)
+                    {	?>
 
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="theme_common_box_two">
