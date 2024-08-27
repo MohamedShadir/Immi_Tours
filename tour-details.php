@@ -234,7 +234,7 @@
                     </div> <br>
                     <div class="form-group">
                         <label for="dates">Email</label>
-                        <input type="text" id="dates" value="" class="form-control">
+                        <input type="text" id="dates" value="" class="form-control" required>
                     </div> <br>
                     <div class="form-group">
                         <label for="dates">Phone</label>
