@@ -129,7 +129,7 @@
             <div class="main-navbar" style="background-color:color-mix(in hsl shorter hue, rgb(118, 118, 251) 7%, rgb(101, 166, 101) 20%);">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="assets/img/logo_immi.png" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -280,7 +280,7 @@
                                             <a href="hotel-booking.php" class="nav-link">Hotel booking</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="flight-booking.php" class="nav-link">Flight booking</a>
+                                            <a href="train-booking.php" class="nav-link">Train booking</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="tour-booking.php" class="nav-link">Tour booking</a>
@@ -810,7 +810,7 @@
                                     <h3>8 days 7 nights</h3>
                                     <p>Cupidatat consectetur ea cillum laborum labore veniam proident consectetur
                                         excepteur amet pariatur et laboris sint laborum.</p>
-                                    <a href="top-destinations-details.html">Tour details</a>
+                                    <a href="top-destinations-details.php">Tour details</a>
                                 </div>
                             </div>
                         </div>
@@ -1229,7 +1229,7 @@
             <div class="row align-items-center">
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <!-- <div class="co-lg-6 col-md-6 col-sm-12 col-12">
