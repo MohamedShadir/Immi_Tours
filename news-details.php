@@ -127,7 +127,7 @@
                                 <div class="recent_news_text">
                                     <h5><a href="news-details.php">Consequat enim aute sint sint ad et culpa eu
                                             magna</a></h5>
-                                    <p><a href="news.html">26 Oct 2021</a> <i class="fas fa-circle"></i> 8 min read</p>
+                                    <p><a href="news.php">26 Oct 2021</a> <i class="fas fa-circle"></i> 8 min read</p>
                                 </div>
                             </div>
                             <div class="recent_news_item">
@@ -297,7 +297,7 @@
             <div class="row align-items-center">
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
