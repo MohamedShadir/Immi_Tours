@@ -477,9 +477,9 @@
                     <div class="dashboard_sidebar">
                         <div class="dashboard_sidebar_user">
                             <img src="assets/img/common/dashboard-user.png" alt="img">
-                            <h3>Sherlyn Chopra</h3>
-                            <p><a href="tel:+00-123-456-789">+00 123 456 789</a></p>
-                            <p><a href="mailto:sherlyn@domain.com">sherlyn@domain.com</a></p>
+                            <h3>shadir</h3>
+                            <p><a href="tel:+00-123-456-789">077 259 0197</a></p>
+                            <p><a href="mailto:sherlyn@domain.com">shadir@gmail.com</a></p>
                         </div>
                         <div class="dashboard_menu_area">
                             <ul>
@@ -510,7 +510,7 @@
                                 <!--<li><a href="wallet.php"><i class="fas fa-wallet"></i>Wallet</a></li>-->
                                 <!--<li><a href="notification.php"><i class="fas fa-bell"></i>Notifications</a></li>-->
                                 <li>
-                                    <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <a href="index.php" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i class="fas fa-sign-out-alt"></i>Logout
                                     </a>
                                 </li>
@@ -528,7 +528,7 @@
                                     </div>
                                     <div class="dashboard_top_text">
                                         <h3>Total bookings</h3>
-                                        <h1>231</h1>
+                                        <h1>8</h1>
                                     </div>
                                 </div>
                             </div>
@@ -539,7 +539,7 @@
                                     </div>
                                     <div class="dashboard_top_text">
                                         <h3>Pending bookings</h3>
-                                        <h1>23</h1>
+                                        <h1>2</h1>
                                     </div>
                                 </div>
                             </div>
@@ -740,7 +740,7 @@
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_right">
-                        <img src="assets/img/common/cards.png" alt="img">
+                        
                     </div>
                 </div>
             </div>
@@ -766,7 +766,7 @@
                         you want to log out.
                     </h3>
                     <div class="logout_approve_button">
-                        <button data-bs-dismiss="modal" class="btn btn_theme btn_md">Yes Confirm</button>
+                        <a data-bs-dismiss="modal" class="btn btn_theme btn_md" href="index.php">Yes Confirm</a>
                         <button data-bs-dismiss="modal" class="btn btn_border btn_md">No Cancel</button>
                     </div>
                 </div>

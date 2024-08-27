@@ -479,9 +479,9 @@
                     <div class="dashboard_sidebar">
                         <div class="dashboard_sidebar_user">
                             <img src="assets/img/common/dashboard-user.png" alt="img">
-                            <h3>Sherlyn Chopra</h3>
-                            <p><a href="tel:+00-123-456-789">+00 123 456 789</a></p>
-                            <p><a href="mailto:sherlyn@domain.com">sherlyn@domain.com</a></p>
+                            <h3>Shadir</h3>
+                            <p><a href="tel:+00-123-456-789">077 259 0197</a></p>
+                            <p><a href="mailto:sherlyn@domain.com">shadir@gmail.com</a></p>
                         </div>
                         <div class="dashboard_menu_area">
                             <ul>
@@ -715,7 +715,7 @@
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_right">
-                        <img src="assets/img/common/cards.png" alt="img">
+                        
                     </div>
                 </div>
             </div>

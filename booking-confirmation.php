@@ -327,8 +327,8 @@
                                     <img src="assets/img/icon/right.png" alt="img">
                                 </div>
                                 <div class="booking_success_text">
-                                    <h3>abcd efgh, your order was submitted successfully!</h3>
-                                    <h6>Your booking details has been sent to: abcd@gmail.com</h6>
+                                    <h3>joy, your booking was submitted successfully!</h3>
+                                    <h6>Your booking details has been sent to: joy@gmail.com</h6>
                                 </div>
                             </div>
                         </div>
@@ -338,12 +338,12 @@
                                 <div class="your_info_arae">
                                     <ul>
                                         <li><span class="name_first">First name:</span> <span
-                                                class="last_name">abcd</span></li>
+                                                class="last_name">joy</span></li>
                                         <li><span class="name_first">Last name:</span> <span
-                                                class="last_name">efgh</span></li>
+                                                class="last_name">jakson</span></li>
                                         <li><span class="name_first">Email address:</span> <span
-                                                class="last_name">abcd@gmail.com</span></li>
-                                        <li><span class="name_first">Address:</span> <span class="last_name">pampaimadu vavuniya
+                                                class="last_name"> joy@gmail.com</span></li>
+                                        <li><span class="name_first">Address:</span> <span class="last_name"> vavuniya
                                              </span></li>
                                         <li><span class="name_first">District:</span> <span
                                                 class="last_name">vavuniya</span></li>
@@ -409,7 +409,7 @@
             <div class="row align-items-center">
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright_left">
-                        <p>Copyright © 2022 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="co-lg-6 col-md-6 col-sm-12 col-12">

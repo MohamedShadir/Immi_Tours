@@ -183,7 +183,7 @@
                                                     <a href="bus-search-list.php" class="nav-link">Bus</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="bus-booking.php" class="nav-link">Bus Booking</a>
+                                                    
                                                 </li>
                                             </ul>
                                         </li>
@@ -332,7 +332,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="how_it_boxed">
-                        <img src="assets/img/common/how-1.png" alt="img">
+                        <img src="assets/img/common/h1.jpg" alt="img">
                         <h3>Sign up</h3>
                         <p>Duis laboris culpa cupidatat do consequat esse officia ex.
                             Reprehenderit quis est id sint ea dolore sint nostrud demos adipisicing.</p>
@@ -340,7 +340,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="how_it_boxed">
-                        <img src="assets/img/common/how-2.png" alt="img">
+                        <img src="assets/img/common/h2.jpg" alt="img">
                         <h3>Contact with client</h3>
                         <p>Duis laboris culpa cupidatat do consequat esse officia ex.
                             Reprehenderit quis est id sint ea dolore sint nostrud demos adipisicing.</p>
@@ -348,7 +348,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="how_it_boxed">
-                        <img src="assets/img/common/how-3.png" alt="img">
+                        <img src="assets/img/common/h3.jpg" alt="img">
                         <h3>Start earnings</h3>
                         <p>Duis laboris culpa cupidatat do consequat esse officia ex.
                             Reprehenderit quis est id sint ea dolore sint nostrud demos adipisicing.</p>
@@ -359,7 +359,7 @@
     </section>
 
     <!-- Video Area -->
-    <section id="video_area">
+   <!--  <section id="video_area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -379,7 +379,7 @@
             </div>
         </div>
     </section>
-
+ -->
     <!-- About Service Area -->
     <section id="about_service_offer" class="section_padding">
         <div class="container">
@@ -515,7 +515,7 @@
                                         conditions</a> and <a href="privacy-policy.php">Privacy policy</a>
                                 </label>
                             </div>
-                            <button  class="btn btn_theme btn_md">Sign up</button>
+                            <button  class="btn btn_theme btn_md"><a href="home.php">----</a>Signup</button>
                         </div>
                     </div>
                 </div>

@@ -480,9 +480,9 @@
                     <div class="dashboard_sidebar">
                         <div class="dashboard_sidebar_user">
                             <img src="assets/img/common/dashboard-user.png" alt="img">
-                            <h3>Sherlyn Chopra</h3>
-                            <p><a href="tel:+00-123-456-789">+00 123 456 789</a></p>
-                            <p><a href="mailto:sherlyn@domain.com">sherlyn@domain.com</a></p>
+                            <h3>Mohamed Shadir</h3>
+                            <p><a href="tel:+00-123-456-789">+94 772 590 197</a></p>
+                            <p><a href="mailto:shadir@gmail.com">shadir@gmail.com</a></p>
                         </div>
                         <div class="dashboard_menu_area">
                             <ul>
@@ -511,7 +511,7 @@
                                         profile</a></li>
                                 <!-- <li><a href="dashboard.php"><i class="fas fa-wallet"></i>Wallet</a></li>
                                 <li><a href="notification.html"><i class="fas fa-bell"></i>Notifications</a></li> -->
-                                <li><a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                <li><a href="index.php" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                                             class="fas fa-sign-out-alt"></i>Logout</a></li>
                             </ul>
                         </div>
@@ -527,39 +527,39 @@
                                         <div class="form-group">
                                             <label for="f-name">First name</label>
                                             <input type="text" class="form-control" id="f-name" placeholder="Your Name"
-                                                value="Sherlyn">
+                                                value="Mohamed">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="l-name">Last name</label>
-                                            <input type="text" class="form-control" id="l-name" value="chopra">
+                                            <input type="text" class="form-control" id="l-name" value="Shadir">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="mail-address">Email address</label>
                                             <input type="text" class="form-control" id="mail-address"
-                                                value="sherlyn@domain.com">
+                                                value="shadir@gmail.com">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="mobil-number">Mobile number</label>
                                             <input type="text" class="form-control" id="mobil-number"
-                                                value="+00 123 456 789">
+                                                value="+94 772 590 197">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="u-name">User name</label>
-                                            <input type="text" class="form-control" id="u-name" value="sherlyn">
+                                            <input type="text" class="form-control" id="u-name" value="shadir">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group change_password_field">
                                             <label for="password">Password</label>
-                                            <input type="password" class="form-control" id="password" value="cdkdkdd">
+                                            <input type="password" class="form-control" id="password" value="123456">
                                             <p>Change password</p>
                                         </div>
                                     </div>
@@ -719,7 +719,7 @@
                         you want to log out.
                     </h3>
                     <div class="logout_approve_button">
-                        <button data-bs-dismiss="modal" class="btn btn_theme btn_md">Yes Confirm</button>
+                        <button data-bs-dismiss="modal" class="btn btn_theme btn_md"><a href="index.php">--</a>Yes Confirm</button>
                         <button data-bs-dismiss="modal" class="btn btn_border btn_md">No Cancel</button>
                     </div>
                 </div>

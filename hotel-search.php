@@ -575,7 +575,7 @@ include('conf/config.php');
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="section_heading_center">
-                        <h2>38 hotel found</h2>
+                        <h2>8 hotel found</h2>
                     </div>
                 </div>
             </div>

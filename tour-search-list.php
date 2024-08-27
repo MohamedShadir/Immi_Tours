@@ -574,7 +574,7 @@ include('conf/config.php');
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="section_heading_center">
-                        <h2>38 Tour found</h2>
+                        <h2>8 Tour found</h2>
                     </div>
                 </div>
             </div>
@@ -912,9 +912,9 @@ include('conf/config.php');
                             </div>
 <!------------------------------------------------------------------------------------------------------------>
                             
-                            <div class="load_more_flight">
+                            <!-- <div class="load_more_flight">
                                 <button class="btn btn_md"><i class="fas fa-spinner"></i> Load more..</button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

@@ -105,7 +105,7 @@
                         <ul class="topbar-others-options">
                             <div class="option-item">
                                 <a href="login.php" class="btn  btn_navber">Login</a>
-                                <a href="signup.php" class="btn  btn_navber">Signup</a>
+                                <a href="register.php" class="btn  btn_navber">Signup</a>
                             </div>
                            
                         </ul>

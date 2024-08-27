@@ -172,26 +172,26 @@
                         <div class="common_author_form">
                             <form action="#" id="main_author_form">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter first name*" />
+                                    <input type="text" class="form-control" placeholder="Enter first name*" required />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter last name*" />
+                                    <input type="text" class="form-control" placeholder="Enter last name*" required/>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control"
-                                        placeholder="your email address (Optional)" />
+                                        placeholder="your email address (Optional)"required />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Mobile number*" />
+                                    <input type="text" class="form-control" placeholder="Mobile number*"required />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="User name*" />
+                                    <input type="text" class="form-control" placeholder="User name*" required/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password" />
+                                    <input type="password" class="form-control" placeholder="Password" required />
                                 </div>
                                 <div class="common_form_submit">
-                                    <button class="btn btn_theme btn_md">Register</button>
+                                    <button class="btn btn_theme btn_md" ><a href="login.php">_</a>Register</button>
                                 </div>
                                 <div class="have_acount_area other_author_option">
                                     <div class="line_or">

@@ -492,7 +492,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-1.png" alt="img">
+                        <img src="assets/img/tour-guides/g1.jpg" alt="img">
                         <div class="tour_guide_content">
                             <ul>
                                 <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
@@ -500,14 +500,14 @@
                                 <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
-                            <h3>Anna naomi</h3>
+                            <h3>Anna</h3>
                             <p>CTO</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-2.png" alt="img">
+                        <img src="assets/img/tour-guides/g2.jpg" alt="img">
                         <div class="tour_guide_content">
                             <ul>
                                 <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
@@ -515,14 +515,14 @@
                                 <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
-                            <h3>Anna naomi</h3>
+                            <h3>Naomi</h3>
                             <p>CTO</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-3.png" alt="img">
+                        <img src="assets/img/tour-guides/g3.jpg" alt="img">
                         <div class="tour_guide_content">
                             <ul>
                                 <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
@@ -530,14 +530,14 @@
                                 <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
-                            <h3>Anna naomi</h3>
+                            <h3>Sam</h3>
                             <p>CTO</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-4.png" alt="img">
+                        <img src="assets/img/tour-guides/g4.jpg" alt="img">
                         <div class="tour_guide_content">
                             <ul>
                                 <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
@@ -545,139 +545,13 @@
                                 <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
-                            <h3>Anna naomi</h3>
+                            <h3>Hari/h3>
                             <p>CTO</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="guide_heading_area pt-5">
-                        <h3>Our leaders</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-5.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-6.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-7.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-8.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-9.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-10.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-11.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="tour_guides_boxed">
-                        <img src="assets/img/tour-guides/guide-12.png" alt="img">
-                        <div class="tour_guide_content">
-                            <ul>
-                                <li><a href="!#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="!#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <h3>Anna naomi</h3>
-                            <p>CTO</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </section>
 

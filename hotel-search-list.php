@@ -946,9 +946,9 @@ include('conf/config.php');
                                 <?php }} ?> 
                             </div>
 <!----------------------------------------------------------------------------------------------------------------->
-                            <div class="load_more_flight">
+                            <!-- <div class="load_more_flight">
                                 <button class="btn btn_md"><i class="fas fa-spinner"></i> Load more..</button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
