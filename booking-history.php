@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/img/Immi_banner.png" alt="logo">
                             </a>
                         </div>
@@ -74,36 +74,16 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="home.php.........">
                             <img src="assets/img/logo_immi.png" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="index.php" class="nav-link">
+                                    <a href="home.php" class="nav-link">
                                         Home
                                         <!-- <i class="fas fa-angle-down"></i> -->
                                     </a>
-                                    <!-- <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">Home One</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-2.html" class="nav-link">Home Two</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-3.html" class="nav-link">Home Three</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-4.html" class="nav-link">Home Four</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-5.html" class="nav-link">Home Five</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-6.html" class="nav-link">Home six</a>
-                                        </li>
-                                    </ul> -->
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
@@ -122,9 +102,6 @@
                                                 <li class="nav-item">
                                                     <a href="tour-search-list.php" class="nav-link">Tour List</a>
                                                 </li>
-                                                <!-- <li class="nav-item">
-                                                    <a href="tour-search-map.html" class="nav-link">Tour Map</a>
-                                                </li> -->
                                                 <li class="nav-item">
                                                     <a href="tour-details.php" class="nav-link">Tour Details</a>
                                                 </li>
@@ -164,9 +141,6 @@
                                                 <li class="nav-item">
                                                     <a href="hotel-search-list.php" class="nav-link">Hotel List</a>
                                                 </li>
-                                                <!-- <li class="nav-item">
-                                                    <a href="hotel-map.html" class="nav-link">Hotel Map</a>
-                                                </li> -->
                                                 <li class="nav-item">
                                                     <a href="hotel-details.php" class="nav-link">Hotel Booking</a>
                                                 </li>
@@ -178,37 +152,6 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Visa
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="visa-details.html" class="nav-link">Visa Details</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="visa-application.html" class="nav-link">Visa Application</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="visa-info.html" class="nav-link">Business visa </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="visa-info.html" class="nav-link">Education visa </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="visa-info.html" class="nav-link">Working visa </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="visa-info.html" class="nav-link">Tourist visa </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="visa-info.html" class="nav-link">Medical visa </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="visa-info.html" class="nav-link">On-arrival visa </a>
-                                                </li>
-                                            </ul>
-                                        </li> -->
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 Apartments
@@ -220,9 +163,6 @@
                                                 <li class="nav-item">
                                                     <a href="apartment-search-list.php" class="nav-link">Apartments List</a>
                                                 </li>
-                                                <!-- <li class="nav-item">
-                                                    <a href="apartment-search-map.php" class="nav-link">Apartments Map</a>
-                                                </li> -->
                                                 <li class="nav-item">
                                                     <a href="apartment-details.php" class="nav-link">Apartments Details</a>
                                                 </li>
@@ -239,33 +179,11 @@
                                                 <li class="nav-item">
                                                     <a href="bus-search-list.php" class="nav-link">Bus</a>
                                                 </li>
-                                                <!-- <li class="nav-item">
-                                                    <a href="bus-search-map.html" class="nav-link">Bus Map</a>
-                                                </li> -->
                                                 <li class="nav-item">
                                                     <a href="bus-booking.php" class="nav-link">Bus Booking</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Cruise
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="cruise-search-list.html" class="nav-link">Cruise</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="cruise-map.html" class="nav-link">Cruise Map</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="cruise-details.html" class="nav-link">Cruise Details</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="cruise-booking.html" class="nav-link">Cruise Booking</a>
-                                                </li>
-                                            </ul>
-                                        </li> -->
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -280,11 +198,6 @@
                                         <li class="nav-item">
                                             <a href="tour-guides.php" class="nav-link">Team</a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a href="testimonials.php" class="nav-link">Testimonials</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="faqs.php" class="nav-link">FAQ</a> -->
                                         </li>
                                         <li class="nav-item">
                                             <a href="booking-confirmation.php" class="nav-link">Booking Confirmation</a>
@@ -292,33 +205,6 @@
                                         <li class="nav-item">
                                             <a href="become-expert.php" class="nav-link">Become Expert </a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a href="#" class="nav-link">User Pages</a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="login.html" class="nav-link">Login</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="register.html" class="nav-link">Register</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="forgot-password.html" class="nav-link">Forget Password</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="verify-otp.html" class="nav-link">Verify OTP</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="reset-password.html" class="nav-link">Reset Password</a>
-                                                </li>
-                                            </ul>
-                                        </li> -->
-                                       
-                                        <!-- <li class="nav-item">
-                                            <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="error.html" class="nav-link">404 Error</a>
-                                        </li> -->
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -342,53 +228,13 @@
                                         <li class="nav-item">
                                             <a href="my-profile.php" class="nav-link">My profile</a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a href="wallet.html" class="nav-link">Wallet</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="notification.html" class="nav-link">Notifications</a>
-                                        </li> -->
                                     </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="news.php" class="nav-link">News <!-- <i class="fas fa-angle-down"></i> --></a>
-                                    <!-- <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="news.html" class="nav-link">News</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-v2.html" class="nav-link">News v2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-v3.html" class="nav-link">News v3</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-v4.html" class="nav-link">News v4</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-details.html" class="nav-link">News Details</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-details-v2.html" class="nav-link">News Details v2</a>
-                                        </li>
-                                    </ul> -->
                                 </li>
                                 <li class="nav-item">
                                     <a href="contact.php" class="nav-link">Contact <!-- <i class="fas fa-angle-down"></i> --></a>
-                                    <!-- <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="contact.html" class="nav-link">Contact v1</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="contact-v2.html" class="nav-link">Contact v2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="contact-v3.html" class="nav-link">Contact v3</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="contact-v4.html" class="nav-link">Contact v4</a>
-                                        </li>
-                                    </ul> -->
                                 </li>
                             </ul>
                             <div class="others-options d-flex align-items-center">
@@ -460,8 +306,8 @@
                     <div class="common_bannner_text">
                         <h2>Booking history</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><span><i class="fas fa-circle"></i></span><a href="dashboard.html">Customer
+                            <li><a href="home.php">Home</a></li>
+                            <li><span><i class="fas fa-circle"></i></span><a href="dashboard.php">Customer
                                     dashboard</a></li>
                             <li><span><i class="fas fa-circle"></i></span>Booking history</li>
                         </ul>
@@ -485,31 +331,29 @@
                         </div>
                         <div class="dashboard_menu_area">
                             <ul>
-                                <li><a href="dashboard.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+                                <li><a href="dashboard.php"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
                                 <li class="dashboard_dropdown_button" id="dashboard_dropdowns"><i
                                         class="fas fa-address-card"></i>My bookings
                                     <span> <i class="fas fa-angle-down"></i></span>
                                     <div class="booing_sidebar_dashboard" id="show_dropdown_item"
                                         style="display: none;">
                                         <ul>
-                                            <li><a href="hotel-booking.html"><i class="fas fa-hotel"></i>Hotel
+                                            <li><a href="hotel-booking.php"><i class="fas fa-hotel"></i>Hotel
                                                     booking</a></li>
-                                            <li><a href="flight-booking.html"><i class="fas fa-paper-plane"></i>Flight
+                                            <li><a href="flight-booking.php"><i class="fas fa-paper-plane"></i>Flight
                                                     booking</a></li>
                                             <li>
-                                                <a href="tour-booking.html">
+                                                <a href="tour-booking.php">
                                                     <i class="fas fa-map"></i>Tour booking
                                                 </a>
                                             </li>
-                                            <li><a href="booking-history.html" class="active"><i
+                                            <li><a href="booking-history.php" class="active"><i
                                                         class="fas fa-history"></i>Booking
                                                     history</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="my-profile.html"><i class="fas fa-user-circle"></i>My profile</a></li>
-                                <li><a href="wallet.html"><i class="fas fa-wallet"></i>Wallet</a></li>
-                                <li><a href="notification.html"><i class="fas fa-bell"></i>Notifications</a></li>
+                                <li><a href="my-profile.php"><i class="fas fa-user-circle"></i>My profile</a></li>
                                 <li>
                                     <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i class="fas fa-sign-out-alt"></i>Logout
